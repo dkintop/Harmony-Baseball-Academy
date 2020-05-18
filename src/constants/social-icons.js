@@ -1,9 +1,9 @@
 import React from "react"
-import { GrLinkedin, FaYoutube, AiFillInstagram } from "react-icons/fa"
+import { FaLinkedin, FaYoutube, FaInstagram } from "react-icons/fa"
 
 export default [
   {
-    icon: <GrLinkedin />,
+    icon: <FaLinkedin />,
     url: "https://www.linkedin.com/in/arsel-giowou-b11369175/",
   },
   {
@@ -11,7 +11,7 @@ export default [
     url: "https://www.youtube.com/channel/UCq-zsW9UkhhQ6ON13HVV05w",
   },
   {
-    icon: <AiFillInstagram />,
+    icon: <FaInstagram />,
     url: "https://www.instagram.com/arsel_giowou/?igshid=1lsh72ayxtxae",
   },
 ]

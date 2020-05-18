@@ -6,6 +6,7 @@ import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/navLinks"
 import socialIcons from "../constants/social-icons"
 import logo from "../images/Main-Logo.png"
+
 export default class Navbar extends Component {
   state = {
     isOpen: false,
@@ -67,7 +68,6 @@ export default class Navbar extends Component {
               )
             })}
           </div>
-        </div>
         </div>
       </nav>
     )
