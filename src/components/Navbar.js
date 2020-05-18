@@ -38,6 +38,36 @@ export default class Navbar extends Component {
               <FaAlignRight className={styles.logoIcon} />
             </button>
           </div>
+          <ul
+            className={
+              this.state.isOpen
+                ? `${styles.navLinks} ${styles.showNav}`
+                : `${styles.navLinks}`
+            }
+          >
+            {links.map((item, index) => {
+              return (
+                <li key={index}>
+                  <Link to={item.path}>{item.text}</Link>
+                </li>
+              )
+            })}
+          </ul>
+          <div className={styles.navSocialLinks}>
+            {socialIcons.map((item, index) => {
+              return (
+                <a
+                  key={index}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {item.icon}
+                </a>
+              )
+            })}
+          </div>
+        </div>
         </div>
       </nav>
     )
