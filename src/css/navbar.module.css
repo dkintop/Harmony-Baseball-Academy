@@ -1,4 +1,3 @@
-
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -42,6 +41,11 @@
 }
 .nav-social-links {
   display: none;
+}
+
+.mainLogo {
+  height: 200px;
+  width: 200px;
 }
 @media screen and (min-width: 576px) {
   .navbar {
