@@ -11,6 +11,15 @@ export default class Navbar extends Component {
     isOpen: false,
   }
 
+  toggleNav = () => {
+    return this.setState(prevState => {
+      return {
+        ...prevState,
+        isOpen: !this.state.isOpen,
+      }
+    })
+  }
+
   render() {
     return (
       <nav className={styles.navbar}>
@@ -21,6 +30,13 @@ export default class Navbar extends Component {
               src={logo}
               alt="Harmony Baseball Logo"
             />
+            <button
+              type="button"
+              className={styles.logoBtn}
+              onClick={this.toggleNav}
+            >
+              <FaAlignRight className={styles.logoIcon} />
+            </button>
           </div>
         </div>
       </nav>
