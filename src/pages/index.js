@@ -1,3 +1,9 @@
 import React from "react"
-
-export default () => <div>Hello world!</div>
+import Layout from "../components/Layout.js"
+import { Link } from "gatsby"
+import { FaAdobe } from "react-icons/fa"
+export default () => (
+  <Layout>
+    <div>this is the home page</div>
+  </Layout>
+)
