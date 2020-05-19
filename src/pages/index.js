@@ -1,9 +1,14 @@
-import React from "react"
+import React, { Component } from "react"
 import Layout from "../components/Layout.js"
-import { Link } from "gatsby"
-import { FaAdobe } from "react-icons/fa"
-export default () => (
-  <Layout>
-    <div>this is the home page</div>
-  </Layout>
-)
+import ImgCarousel from "../components/ImgCarousel.js"
+export default class Index extends Component {
+  render() {
+    return (
+      <>
+        <Layout>
+          <ImgCarousel />
+        </Layout>
+      </>
+    )
+  }
+}

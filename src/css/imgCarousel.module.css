@@ -1,0 +1,12 @@
+.carouselContainer {
+  height: auto;
+  width: 100%;
+  background-color: #afafaf;
+  text-align: center;
+}
+
+.carousel {
+  display: inline-block;
+  margin-top: 15px;
+  width: 50%;
+}

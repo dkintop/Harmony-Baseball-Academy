@@ -31,6 +31,10 @@ export default class Navbar extends Component {
               src={logo}
               alt="Harmony Baseball Logo"
             />
+            <h1>
+              Harmony Baseball
+              <br /> Academy
+            </h1>
             <button
               type="button"
               className={styles.logoBtn}
