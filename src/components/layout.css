@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 
 :root {
-  --primaryColor: #3fd0d4;
+  --primaryColor: #0a0958;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -25,6 +25,7 @@ body {
   background: var(--mainWhite);
   line-height: 1.4;
   font-size: 1rem;
+  background-color: var(--darkGrey);
 }
 h1,
 h2,

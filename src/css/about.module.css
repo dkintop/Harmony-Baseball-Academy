@@ -1,0 +1,32 @@
+.container {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.header {
+  background-color: var(--mainBlack);
+  color: var(--mainWhite);
+  padding: 10px;
+}
+
+.body {
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.carouselContainer {
+  height: auto;
+  width: 100%;
+  background-color: #afafaf;
+  text-align: center;
+}
+
+.carousel {
+  display: inline-block;
+  margin-top: 15px;
+  width: 50%;
+}
