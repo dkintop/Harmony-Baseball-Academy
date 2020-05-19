@@ -1,19 +1,25 @@
 import React, { Component } from "react"
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import logo from "../images/carouselImage1.png"
-import img from "../images/carouselImage2.png"
 import styles from "../css/imgCarousel.module.css"
+import img from "../images/carousel1.png"
+import imgA from "../images/carousel2.png"
 export default class ImgCarousel extends Component {
   render() {
     return (
       <div className={styles.carouselContainer}>
-        <Carousel className={styles.carousel} autoPlay showThumbs={false}>
-          <div>
-            <img src={logo} />
-          </div>
+        <Carousel
+          className={styles.carousel}
+          autoPlay
+          showThumbs={false}
+          infiniteLoop={true}
+          interval={10000}
+        >
           <div>
             <img src={img} />
+          </div>
+          <div>
+            <img src={imgA} />
           </div>
         </Carousel>
       </div>
