@@ -46,6 +46,7 @@
 .mainLogo {
   height: 200px;
   width: 200px;
+  float: left;
 }
 @media screen and (min-width: 576px) {
   .navbar {
