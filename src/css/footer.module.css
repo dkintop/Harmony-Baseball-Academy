@@ -17,6 +17,8 @@
 }
 .links a:hover {
   color: var(--primaryColor);
+  background-color: var(--darkGrey);
+  border-radius: 5px;
 }
 .icons a {
   display: inline-block;

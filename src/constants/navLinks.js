@@ -16,7 +16,11 @@ export default [
     text: "Blog",
   },
   {
-    path: "/gallery",
-    text: "Gallery",
+    path: "/partners",
+    text: "Our Partners",
+  },
+  {
+    path: "/store",
+    text: "Store",
   },
 ]

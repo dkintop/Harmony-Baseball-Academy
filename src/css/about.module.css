@@ -30,3 +30,12 @@
   margin-top: 15px;
   width: 50%;
 }
+
+.content {
+  border-bottom: 2px;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0;
+  border-style: solid;
+  border-color: #afafaf;
+}

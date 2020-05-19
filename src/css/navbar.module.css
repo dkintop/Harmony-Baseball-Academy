@@ -27,7 +27,7 @@ nav {
   overflow: hidden;
 }
 .show-nav {
-  height: 216px;
+  height: 350px;
 }
 .nav-links a {
   display: block;
@@ -41,6 +41,8 @@ nav {
 }
 .nav-links a:hover {
   color: var(--primaryColor);
+  background-color: var(--darkGrey);
+  border-radius: 5px;
 }
 .nav-social-links {
   display: none;
@@ -71,6 +73,8 @@ nav {
   .nav-links {
     height: auto;
     display: flex;
+    position: relative;
+    z-index: 1000;
   }
   .nav-social-links {
     display: flex;

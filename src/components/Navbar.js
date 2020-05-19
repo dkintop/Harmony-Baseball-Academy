@@ -58,7 +58,8 @@ export default class Navbar extends Component {
               )
             })}
           </ul>
-          <div className={styles.navSocialLinks}>
+
+          {/* <div className={styles.navSocialLinks}>
             {socialIcons.map((item, index) => {
               return (
                 <a
@@ -71,7 +72,7 @@ export default class Navbar extends Component {
                 </a>
               )
             })}
-          </div>
+          </div> */}
         </div>
       </nav>
     )
