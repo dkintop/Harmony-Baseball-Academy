@@ -27,7 +27,7 @@ export default class MissionStatement extends Component {
             showStatus={false}
           >
             <div>
-              <img src={image} />
+              <img src={image} alt="Young boy throwing Baseball" />
             </div>
           </Carousel>
         </div>

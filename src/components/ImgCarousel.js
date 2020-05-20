@@ -16,10 +16,10 @@ export default class ImgCarousel extends Component {
           interval={10000}
         >
           <div>
-            <img src={img} />
+            <img src={img} alt="Team  one" />
           </div>
           <div>
-            <img src={imgA} />
+            <img src={imgA} alt=" Same Team, different " />
           </div>
         </Carousel>
       </div>

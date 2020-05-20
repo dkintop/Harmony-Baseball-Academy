@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import styles from "../css/footer.module.css"
-import links from "../constants/navlinks"
+import links from "../constants/navLinks.js"
 import socialIcons from "../constants/social-icons"
 import { Link } from "gatsby"
-import { FaRproject } from "react-icons"
+
 export default class Footer extends Component {
   render() {
     return (

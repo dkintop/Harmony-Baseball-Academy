@@ -28,7 +28,7 @@ export default class About extends Component {
             showStatus={false}
           >
             <div>
-              <img src={image} />
+              <img src={image} alt="About" />
             </div>
           </Carousel>
         </div>

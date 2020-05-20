@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { FaRProject } from "react-icons/fa"
+
 import styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/navLinks"
-import socialIcons from "../constants/social-icons"
+// import socialIcons from "../constants/social-icons"
 import logo from "../images/Main-Logo.png"
 
 export default class Navbar extends Component {
