@@ -24,6 +24,7 @@ export default class MissionStatement extends Component {
             infiniteLoop={true}
             interval={10000}
             showIndicators={false}
+            showStatus={false}
           >
             <div>
               <img src={image} />

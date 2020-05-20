@@ -25,6 +25,7 @@ export default class About extends Component {
             infiniteLoop={true}
             interval={10000}
             showIndicators={false}
+            showStatus={false}
           >
             <div>
               <img src={image} />
