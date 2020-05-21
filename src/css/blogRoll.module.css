@@ -1,0 +1,31 @@
+.postContainer {
+  background-color: aliceblue;
+  margin: 5%;
+}
+
+.blogListItem {
+  background-color: white;
+  box-shadow: 6px 6px 5px rgb(116, 116, 116);
+}
+
+.postHeader {
+  margin: 10px;
+}
+
+.postTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.postBody {
+  margin: 10px;
+}
+
+.bull {
+  color: var(--darkGrey);
+}
