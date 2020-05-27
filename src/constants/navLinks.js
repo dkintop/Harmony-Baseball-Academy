@@ -5,7 +5,7 @@ export default [
   },
   {
     path: "/bio",
-    text: "Meet the Coach",
+    text: "Meet the Coaches",
   },
   {
     path: "/contact",

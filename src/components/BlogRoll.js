@@ -49,7 +49,7 @@ export default () => (
         allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt
               id
               frontmatter {
                 path
