@@ -7,13 +7,15 @@ export default class Bio extends Component {
   render() {
     return (
       <Layout>
-        {coaches.map((coach, index) => {
-          return (
-            <>
-              <CoachBioCard coach={coach} />
-            </>
-          )
-        })}
+        <div className={styles.bioContainer}>
+          {coaches.map((coach, index) => {
+            return (
+              <>
+                <CoachBioCard coach={coach} />
+              </>
+            )
+          })}
+        </div>
       </Layout>
     )
   }
