@@ -1,4 +1,4 @@
-.bioContainer {
+/* .bioContainer {
   min-height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -37,4 +37,16 @@
   display: inline-block;
   margin-top: 15px;
   width: 50%;
+} */
+
+.card {
+  max-width: 300px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
+}
+
+.cardImg {
+  width: 100%;
 }
