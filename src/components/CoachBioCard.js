@@ -13,7 +13,7 @@ export default class CoachBioCard extends Component {
           alt={this.props.coach.name}
         />
         <h1>{this.props.coach.name}</h1>
-        <h3>{this.props.coach.roll}</h3>
+        <h3>{this.props.coach.role}</h3>
         <p> {this.props.coach.bio}</p>
       </div>
     )

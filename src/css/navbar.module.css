@@ -53,13 +53,13 @@ nav {
   width: 200px;
   float: left;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 570px) {
   .navbar {
     padding: 0 2rem;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
   .logo-btn {
     display: none;
   }

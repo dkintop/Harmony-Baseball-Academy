@@ -58,21 +58,6 @@ export default class Navbar extends Component {
               )
             })}
           </ul>
-
-          {/* <div className={styles.navSocialLinks}>
-            {socialIcons.map((item, index) => {
-              return (
-                <a
-                  key={index}
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {item.icon}
-                </a>
-              )
-            })}
-          </div> */}
         </div>
       </nav>
     )
