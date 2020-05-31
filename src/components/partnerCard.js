@@ -14,7 +14,7 @@ export default class PartnerCard extends Component {
 
         <h3>{this.props.partner.role}</h3>
         <p>{this.props.partner.contact.email}</p>
-        <a href={this.props.partner.contact.linkedin.url}>
+        <a href={this.props.partner.contact.linkedin.url} target="_blank">
           {this.props.partner.contact.linkedin.icon}
         </a>
         <p style={{ borderBottom: "2px solid lightgray" }}>
