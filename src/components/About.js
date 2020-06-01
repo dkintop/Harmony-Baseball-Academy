@@ -17,7 +17,7 @@ export default class About extends Component {
             high quality people. Don't forget to checkout
             <a href="/blog"> Announcements</a> to stay up to date on our
             progress and our merchandise <a href="/store">store</a> if you would
-            like to help support our efforts.
+            like to help support our efforts!
           </p>
           <Carousel
             className={styles.carousel}

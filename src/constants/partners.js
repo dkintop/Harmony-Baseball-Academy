@@ -1,5 +1,6 @@
 import React from "react"
 import doug from "../images/doug.png"
+import bill from "../images/bill.png"
 import { FaLinkedin } from "react-icons/fa"
 export default [
   {
@@ -14,6 +15,21 @@ export default [
       email: "dkintop@hotmail.com",
       linkedin: {
         url: "https://www.linkedin.com/in/doug-kintop/",
+        icon: <FaLinkedin />,
+      },
+    },
+  },
+  {
+    name: "Bill Franciscus",
+    role: "Mentor",
+    image: bill,
+    bio:
+      "Global Ambassador for the African Youth Development Foundation, Director of Baseball Operations and GM for USA Military WARDOGSBaseball org, Director of Baseball Operations and Player Development for WE www.we21.org, Pres. USA All-Star Baseball Association, Baseball Without Borders and Global Instructional Baseball League, Commissioner of the Cuban Sports League.",
+    quote: "If you're not giving, you're not living",
+    contact: {
+      email: "billychrist21@gmail.com",
+      linkedin: {
+        url: "https://www.linkedin.com/in/bill-franciscus-9b5b3141/",
         icon: <FaLinkedin />,
       },
     },
