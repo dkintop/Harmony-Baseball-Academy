@@ -8,7 +8,7 @@ export default class Partners extends Component {
     return (
       <Layout>
         <div className={styles.bioContainer}>
-          {partners.map((partner, index) => {
+          {partners.map(partner => {
             return (
               <>
                 <PartnerCard partner={partner} />
