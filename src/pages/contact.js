@@ -17,7 +17,12 @@ export default class Contact extends Component {
               love to hear from you!
             </h3>
             <h4>Arsel Giowou</h4>
-            <p>Email: {contactInfo.arsel.email}</p>
+            <p>
+              Email:
+              <a href={`mailto:${contactInfo.arsel.email}`}>
+                {contactInfo.arsel.email}
+              </a>
+            </p>
             <p>
               LinkedIn:
               <a href={contactInfo.arsel.linkedin}>
