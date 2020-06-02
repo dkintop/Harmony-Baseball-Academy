@@ -7,7 +7,7 @@ My name is Giowou Arsel.  I am the founder of the Harmony Baseball Academy. Our 
 
  Today we have around fifty children playing ball in the Yaoundé region.  Although it is difficult to buy baseball equipment here in Cameroon, we are content with what we have and improvise for what we do not have.  Children love the game and are as excited about it as I am.  In addition to teaching them how to play ball, our goal is also to build good character in their lives by teaching them things like teamwork, fair play and reliability.  And furthermore, we tell the children to live a good moral life on the field - lives that please God and make them better citizens of their country.
 
-Here in Cameroon, baseball is a sport that is  not developed.\
+Here in Cameroon, baseball is a sport that is  not developed.
 My goals and my dreams are to build a baseball stadium in Cameroon, to train great players, to make training camps for coaches and players, to invite foreigners to come here to Cameroon to teach more and develop  our players, bringing the love of baseball to children, and giving children opportunities through baseball.
 
 We are in need of support to continue our mission and we ask for all who are interested to please contact us. Currently we are looking for support to purchase or sponsorships for:
