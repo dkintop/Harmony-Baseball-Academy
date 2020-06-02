@@ -22,7 +22,7 @@ class BlogRoll extends React.Component {
                   </p>
                 </header>
                 <p className={styles.postBody}>
-                  {post.excerpt}
+                  {post.rawMarkdownBody}
                   <br />
                   <br />
                 </p>
@@ -56,6 +56,7 @@ export default () => (
                 title
                 date(formatString: "MMMM DD, YYYY")
               }
+              rawMarkdownBody
             }
           }
         }
