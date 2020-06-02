@@ -28,7 +28,7 @@ export default class Contact extends Component {
               <a
                 href={contactInfo.arsel.linkedin}
                 target="_blank"
-                rel="norefferer"
+                rel="noreferrer"
               >
                 {" "}
                 <FaLinkedin />
