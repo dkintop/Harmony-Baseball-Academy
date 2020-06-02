@@ -4,7 +4,7 @@ export default class Store extends Component {
   render() {
     return (
       <Layout>
-        <div>This is the store page</div>
+        <div>Coming soon!</div>
       </Layout>
     )
   }
