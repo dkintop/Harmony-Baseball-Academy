@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link, graphql, StaticQuery } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 import styles from "../css/blogRoll.module.css"
 class BlogRoll extends React.Component {
   render() {

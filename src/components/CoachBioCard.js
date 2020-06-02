@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 import styles from "../css/bio.module.css"
-import { Carousel } from "react-responsive-carousel"
-import { Card } from "react-bootstrap/Card"
 
 export default class CoachBioCard extends Component {
   render() {

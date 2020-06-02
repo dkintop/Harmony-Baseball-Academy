@@ -4,12 +4,13 @@ import styles from "../css/contact.module.css"
 import image from "../images/smile-throw.png"
 import otherImage from "../images/arsel-thumbsup.png"
 import contactInfo from "../constants/contactInfo.js"
+import { FaLinkedin } from "react-icons/fa"
 export default class Contact extends Component {
   render() {
     return (
       <Layout>
         <div className={styles.card}>
-          <img src={image} className={styles.image} />
+          <img src={image} className={styles.image} alt="" />
 
           <div className={styles.content}>
             <h3>
@@ -24,14 +25,18 @@ export default class Contact extends Component {
               </a>
             </p>
             <p>
-              LinkedIn:
-              <a href={contactInfo.arsel.linkedin}>
-                {contactInfo.arsel.linkedin}
+              <a
+                href={contactInfo.arsel.linkedin}
+                target="_blank"
+                rel="norefferer"
+              >
+                {" "}
+                <FaLinkedin />
               </a>
             </p>
             <p>Phone: {contactInfo.arsel.phone}</p>
           </div>
-          <img src={otherImage} className={styles.image}></img>
+          <img src={otherImage} className={styles.image} alt=""></img>
         </div>
       </Layout>
     )
