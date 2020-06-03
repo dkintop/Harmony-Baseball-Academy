@@ -7,7 +7,7 @@ export default [
     role: "President, Coach",
     name: "Arsel Giowou",
     bio:
-      "my name is Arsel Giowou.  I was born on July 3, 2002. I have been playing baseball since the age of 8.  in 2013 I was in Japan for a training camp at WCBF (World Children’s baseball fair).  after having obtained several experiences in the game while playing, I decided to found my own academy in order to transmit my experience to the children of my country by teaching them how to love and be passionate about the game.",
+      "My name is Arsel Giowou.  I was born on July 3, 2002. I have been playing baseball since the age of 8. In 2013 I was in Japan for a training camp at WCBF (World Children’s baseball fair).  After having obtained several experiences in the game while playing, I decided to found my own academy in order to transmit my experience to the children of my country by teaching them how to love and be passionate about the game.",
     image: arsel,
   },
   {
@@ -21,7 +21,7 @@ export default [
     role: "Coach",
     name: "Pelbara Elias",
     bio:
-      "I have the advantage with baseball to maintain and develop more this sport and also to be able to transmit my knowledge to our little brothers and future children so that Cameroon can be in the headlines in Africa and maybe even the world!",
+      "I have the advantage with baseball to maintain and develop this sport and also to be able to transmit my knowledge to our little brothers and future children so that Cameroon can be in the headlines in Africa and maybe even the world!",
     image: pelbara,
   },
 

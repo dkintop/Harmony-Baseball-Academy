@@ -24,7 +24,7 @@ export default [
     role: "Mentor",
     image: bill,
     bio:
-      "Global Ambassador for the African Youth Development Foundation, Director of Baseball Operations and GM for USA Military WARDOGSBaseball org, Director of Baseball Operations and Player Development for WE#21 www.we21.org, Pres. USA All-Star Baseball Association, Baseball Without Borders and Global Instructional Baseball League, Commissioner of the Cuban Sports League.",
+      "Global Ambassador for the African Youth Development Foundation, Director of Baseball Operations and GM for USA Military WARDOGSBaseball.org, Director of Baseball Operations and Player Development for WE#21 www.we21.org, Pres. USA All-Star Baseball Association, Baseball Without Borders and Global Instructional Baseball League, Commissioner of the Cuban Sports League.",
     quote: "If you're not giving, you're not living",
     contact: {
       email: "billychrist21@gmail.com",
