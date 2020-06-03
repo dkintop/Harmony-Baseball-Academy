@@ -28,7 +28,6 @@
   transition: var(--mainTransition);
 }
 .icons a:hover {
-  padding: 3px;
   background-color: var(--darkGrey);
   color: var(--primaryColor);
   border-radius: 5px;
