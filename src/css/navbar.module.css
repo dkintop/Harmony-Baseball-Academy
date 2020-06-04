@@ -1,14 +1,14 @@
 nav {
   background-color: white;
 }
-.navbar {
-  border-bottom: 8px solid red;
-}
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.25rem;
+}
+.navbar {
+  border-bottom: 10px solid red;
 }
 .logo-btn {
   background: transparent;
