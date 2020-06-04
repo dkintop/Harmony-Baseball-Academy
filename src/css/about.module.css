@@ -7,7 +7,7 @@
 }
 
 .header {
-  background-color: var(--mainBlack);
+  background-color: var(--primaryColor);
   color: var(--mainWhite);
   padding: 10px;
 }
