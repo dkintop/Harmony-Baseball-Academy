@@ -1,5 +1,5 @@
 nav {
-  background-color: white;
+  background-color: red;
 }
 .nav-header {
   display: flex;
@@ -8,7 +8,7 @@ nav {
   padding: 1rem 1.25rem;
 }
 .navbar {
-  border-bottom: 10px solid red;
+  border-bottom: 10px solid var(--primaryColor);
 }
 .logo-btn {
   background: transparent;
