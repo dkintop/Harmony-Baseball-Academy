@@ -1,6 +1,9 @@
 nav {
   background-color: white;
 }
+.navbar {
+  border-bottom: 8px solid red;
+}
 .nav-header {
   display: flex;
   justify-content: space-between;
