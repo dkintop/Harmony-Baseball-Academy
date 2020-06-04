@@ -14,7 +14,7 @@ export default [
     role: "Vice President, Coach",
     name: "Yonzo Kuetche Joseph Modeste",
     bio:
-      "I discovered baseball when I was a child through the tickets of my big brothers Wilfrid and Romaric who were my coaches.  Near them I learned to love baseball and especially to love playing it.  In 2009 I went to Japan to WCBF world baseball fair for children. Returning from Japan with different difficulties to continue training our elders became discouraged and we dropped this magnificent sport. I met Arsel and together we decided to share our knowledge and love for the game with as many  Cameroonians as possible",
+      "I discovered baseball when I was a child through the tickets of my big brothers Wilfrid and Romaric who were my coaches.  Near them I learned to love baseball and especially to love playing it.  In 2009 I went to Japan to WCBF world baseball fair for children. Returning from Japan with different difficulties to continue training our elders became discouraged and we dropped this magnificent sport. I met Arsel and together we decided to share our knowledge and love for the game with as many  Cameroonians as possible.",
     image: yonzo,
   },
   {
@@ -29,7 +29,7 @@ export default [
     role: "Coach",
     name: "Biwounde Jean Marc",
     bio:
-      "My goal is to train as many young people as possible.  Make it an open game accessible to all Cameroonian athletes and train future great players",
+      "My goal is to train as many young people as possible.  Make it an open game accessible to all Cameroonian athletes and train future great players.",
     image: biwounde,
   },
 ]
