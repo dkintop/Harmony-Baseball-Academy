@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   color: var(--mainWhite);
+  border-top: 10px solid red;
 }
 .links a {
   display: inline-block;
