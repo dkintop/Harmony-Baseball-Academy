@@ -68,7 +68,7 @@ export default class Store extends Component {
             We do not currently have systems in place to accept direct
             donations. If you would like to maximize the profits that Harmony
             Baseball Academy will receive, the first item in the store (sticker)
-            has been priced so that harmony baseball academy with receive all
+            has been priced so that harmony baseball academy will receive all
             but a small fraction of the total price. Thank you for your support!
           </p>
         </Layout>
