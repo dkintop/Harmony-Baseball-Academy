@@ -60,6 +60,17 @@ export default class Store extends Component {
               Baseball Academy
             </p>
           </div>
+          <h3 className={styles.textContent}>
+            FAQ: Is there a way for me to donate directly to Harmony Baseball
+            Academy
+          </h3>
+          <p className={styles.textContent}>
+            We do not currently have systems in place to accept direct
+            donations. If you would like to maximize the profits that Harmony
+            Baseball Academy will receive, the first item in the store (sticker)
+            has been priced so that harmony baseball academy with receive all
+            but a small fraction of the total price. Thank you for your support!
+          </p>
         </Layout>
       </>
     )
