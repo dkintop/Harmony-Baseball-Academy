@@ -62,7 +62,7 @@ export default class Store extends Component {
           </div>
           <h3 className={styles.textContent}>
             FAQ: Is there a way for me to donate directly to Harmony Baseball
-            Academy
+            Academy?
           </h3>
           <p className={styles.textContent}>
             We do not currently have systems in place to accept direct
