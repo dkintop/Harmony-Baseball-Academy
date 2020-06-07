@@ -54,7 +54,7 @@ export default class Store extends Component {
             <p style={{ fontStyle: "italic" }}>
               My main goal is to be able to build a baseball stadium here in
               Cameroon, help my players, give them school supplies, pay their
-              schools and help their families. this year we have players who did
+              schools and help their families. This year we have players who did
               not go to school because their parents have no money. It really
               hurt me. <br /> -Arsel Giowou, President and Founder of Harmony
               Baseball Academy
