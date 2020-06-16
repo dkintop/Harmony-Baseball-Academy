@@ -17,5 +17,12 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@harmonybaseballacademy`,
+        limit: 200,
+      },
+    },
   ],
 }
