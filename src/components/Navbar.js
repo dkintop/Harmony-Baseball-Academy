@@ -5,7 +5,7 @@ import styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/navLinks"
 // import socialIcons from "../constants/social-icons"
-import logo from "../images/Main-Logo.png"
+import logo from "../images/old-logo.png"
 
 export default class Navbar extends Component {
   state = {
@@ -51,11 +51,19 @@ export default class Navbar extends Component {
             }
           >
             {links.map((item, index) => {
-              return (
-                <li key={index}>
+              if(item.isExternal){
+                return (
+                  <li key = {index}>
+                    <a href={item.path} target="__blank" rel="nonopener norefferrer">{item.text}</a>
+                  </li>
+                )
+              }
+              else{
+                return (
+                  <li key={index}>
                   <Link to={item.path}>{item.text}</Link>
-                </li>
-              )
+                  </li>
+                )}
             })}
           </ul>
         </div>

@@ -65,11 +65,7 @@ export default class Store extends Component {
             Academy?
           </h3>
           <p className={styles.textContent}>
-            We do not currently have systems in place to accept direct
-            donations. If you would like to maximize the profits that Harmony
-            Baseball Academy will receive, the first item in the store (sticker)
-            has been priced so that harmony baseball academy will receive all
-            but a small fraction of the total price. Thank you for your support!
+            You can donate to Harmony Baseball Academy through our gofundme campaign <a href="https://www.gofundme.com/f/harmonybaseballacademy" target="__blank" rel="nonopener norefferrer"> here.</a> We truly appreciate all of your support in moving toward our goals!
           </p>
         </Layout>
       </>

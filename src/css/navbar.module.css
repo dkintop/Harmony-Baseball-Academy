@@ -30,7 +30,8 @@ nav {
   overflow: hidden;
 }
 .show-nav {
-  height: 350px;
+  height: 375px;
+  overflow: wrap;
 }
 .nav-links a {
   display: block;
@@ -74,6 +75,7 @@ nav {
     align-items: center;
   }
   .nav-links {
+    flex-wrap: wrap;
     height: auto;
     display: flex;
     position: relative;
