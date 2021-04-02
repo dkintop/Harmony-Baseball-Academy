@@ -2,6 +2,7 @@ import React from "react"
 import doug from "../images/doug.png"
 import bill from "../images/bill.png"
 import Michael from "../images/MichaelBaturin.jpg"
+import Nate from "../images/NateKangPartner.jpg"
 import { FaLinkedin } from "react-icons/fa"
 export default [
   {
@@ -11,14 +12,29 @@ export default [
     bio:
       "Michael Baturin is from Camp Hill, PA and connected immediately with Arsel and the Harmony Baseball Academy due to Arsel's deep enthusiasm for playing the game of baseball, an enthusiasm shared by Michael.  Michael's love for playing the game of baseball and a desire to spread it in its truest form to youths in Cameroon who are similarly enthusiastic about playing the game and who would benefit greatly from the opportunity to play it, is what drew Michael to help out the Harmony Baseball Academy",
     quote:
-      "Working with Arsel has been inspirational.  He is an extraordinary person with a passion to bring baseball to Cameroon.  I love his energy and enthusiasm!" ,
+      "Working with Arsel has been inspirational.  He is an extraordinary person with a passion to bring baseball to Cameroon.  I love his energy and enthusiasm!",
     contact: {
       email: "michaelmbaturin@gmail.com",
       linkedin: {
         url: "",
-        icon: " ",
-      }
-    }
+        icon: "",
+      },
+    },
+  },
+  {
+    name: "Nate Kang",
+    role: "Supporter",
+    image: Nate,
+    bio:
+      " Nate Kang is from Irvine, CA and is passionate about baseball and history.  He is the founder of a Facebook Group called “90 Feet from Home: The Baseball History Forum” and a baseball podcast called “Tales from Left Field: A Baseball History Podcast.”  He connected with Arsel and the Harmony Baseball Academy. decided to partner with Arsel to spread the love and passion for baseball in Cameroon and to improve the lives of young kids in Cameroon through baseball.",
+    quote: undefined,
+    contact: {
+      email: "Natetkang@gmail.com",
+      linkedin: {
+        url: "",
+        icon: undefined,
+      },
+    },
   },
   {
     name: "Doug Kintop",
@@ -34,8 +50,7 @@ export default [
         url: "https://www.linkedin.com/in/doug-kintop/",
         icon: <FaLinkedin />,
       },
-      
-    }
+    },
   },
   {
     name: "Bill Franciscus",
@@ -51,6 +66,5 @@ export default [
         icon: <FaLinkedin />,
       },
     },
-  }
-  
+  },
 ]

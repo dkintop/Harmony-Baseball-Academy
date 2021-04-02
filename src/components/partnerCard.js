@@ -2,6 +2,12 @@ import React, { Component } from "react"
 import styles from "../css/bio.module.css"
 
 export default class PartnerCard extends Component {
+  displayQuote() {
+    if (this.props.partner.quote) {
+      return `"${this.props.partner.quote}"`
+    }
+  }
+
   render() {
     return (
       <div className={styles.card}>
@@ -28,7 +34,7 @@ export default class PartnerCard extends Component {
           {" "}
           {this.props.partner.bio}
         </p>
-        <p style={{ fontStyle: "italic" }}>"{this.props.partner.quote}"</p>
+        <p style={{ fontStyle: "italic" }}>{this.displayQuote()}</p>
       </div>
     )
   }
