@@ -11,11 +11,14 @@ export default class PartnerCard extends Component {
   render() {
     return (
       <div className={styles.card}>
-        <img
-          className={styles.cardImg}
-          src={this.props.partner.image}
-          alt={this.props.partner.name}
-        />
+        <div className={styles.cardImgContainer}>
+          <img
+            className={styles.cardImg}
+            src={this.props.partner.image}
+            alt={this.props.partner.name}
+          />
+        </div>
+
         <h1>{this.props.partner.name}</h1>
         <h3>{this.props.partner.role}</h3>
         <a href={`mailto: ${this.props.partner.contact.email}`}>
