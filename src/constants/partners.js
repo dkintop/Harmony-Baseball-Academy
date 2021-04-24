@@ -3,6 +3,7 @@ import doug from "../images/doug.png"
 import bill from "../images/bill.png"
 import Michael from "../images/MichaelBaturin.jpg"
 import Nate from "../images/NateKangPartner.jpg"
+import BillPeterson from "../images/BillPetersonPartner.jpg"
 import { FaLinkedin } from "react-icons/fa"
 export default [
   {
@@ -22,21 +23,6 @@ export default [
     },
   },
   {
-    name: "Nate Kang",
-    role: "Supporter",
-    image: Nate,
-    bio:
-      " Nate Kang is from Irvine, CA and is passionate about baseball and history.  He is the founder of a Facebook Group called “90 Feet from Home: The Baseball History Forum” and a baseball podcast called “Tales from Left Field: A Baseball History Podcast.”  He connected with Arsel and the Harmony Baseball Academy. decided to partner with Arsel to spread the love and passion for baseball in Cameroon and to improve the lives of young kids in Cameroon through baseball.",
-    quote: undefined,
-    contact: {
-      email: "Natetkang@gmail.com",
-      linkedin: {
-        url: "",
-        icon: undefined,
-      },
-    },
-  },
-  {
     name: "Doug Kintop",
     role: "Web development and maintenance",
     image: doug,
@@ -52,6 +38,38 @@ export default [
       },
     },
   },
+  {
+    name: "Bill Peterson",
+    role: "Supporter",
+    image: BillPeterson,
+    bio:
+      "Bill Peterson is a lawyer who lives in northern Colorado.  As a player, father, coach, administrator, supporter and fan, Bill has been blessed by baseball throughout his life.  He’s honored to partner with Harmony Baseball Academy.",
+    quote:
+      "I could have never imagined I’d have the opportunity to assist such a worthy organization as Harmony Baseball Academy.  Baseball can impact lives in so many different ways.  Arsel’s passion for both baseball and people is obvious.  I’m excited to see HBA’s influence on Cameroon and beyond!",
+    contact: {
+      email: "",
+      linkedin: {
+        url: "https://www.linkedin.com/in/bill-peterson-71b7ba99",
+        icon: <FaLinkedin />,
+      },
+    },
+  },
+  {
+    name: "Nate Kang",
+    role: "Supporter",
+    image: Nate,
+    bio:
+      " Nate Kang is from Irvine, CA and is passionate about baseball and history.  He is the founder of a Facebook Group called “90 Feet from Home: The Baseball History Forum” and a baseball podcast called “Tales from Left Field: A Baseball History Podcast.”  He connected with Arsel and the Harmony Baseball Academy. decided to partner with Arsel to spread the love and passion for baseball in Cameroon and to improve the lives of young kids in Cameroon through baseball.",
+    quote: undefined,
+    contact: {
+      email: "Natetkang@gmail.com",
+      linkedin: {
+        url: "",
+        icon: undefined,
+      },
+    },
+  },
+
   {
     name: "Bill Franciscus",
     role: "Mentor",
