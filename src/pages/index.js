@@ -4,6 +4,7 @@ import ImgCarousel from "../components/ImgCarousel.js"
 import SEO from "../components/seo.js"
 import About from "../components/About"
 import MissionStatment from "../components/MissionStatement"
+import IntroVideo from "../components/IntroVideo.js"
 export default class Index extends Component {
   render() {
     return (
@@ -16,7 +17,8 @@ export default class Index extends Component {
         />
 
         <Layout>
-          <ImgCarousel />
+          {/* <ImgCarousel /> */}
+          <IntroVideo />
           <About />
           <MissionStatment />
         </Layout>
